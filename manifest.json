@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+"name": "Passman",
+"description": "Stateless password manager.",
+"version": "1.0",
+"permissions": [
+    "activeTab"
+],
+"browser_action": {
+	"default_icon": {
+		"19":  "icon.png",
+		"38":  "icon.png",
+		"128": "icon.png"
+	},
+	"default_popup": "popup.html"
+},
+	"icons":{
+		"19":  "icon.png",
+		"38":  "icon.png",
+		"128": "icon.png"
+	}
+}

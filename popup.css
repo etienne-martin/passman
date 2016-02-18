@@ -1,0 +1,26 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+input{
+	box-sizing: border-box;
+	padding: 10px 15px;
+	margin: 0px;
+	display: block;
+	height: 40px;
+	width: 190px;
+	border: none;
+	outline: none;
+	color: #4c4c4c;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	font-family: arial, sans-serif;
+}
+input[type=password]{
+	font: 18px Verdana,sans-serif;
+	letter-spacing: 1px;
+}
+input[type=text]{
+	border-top: solid #ccc 1px;
+	color: #aaa;
+}
